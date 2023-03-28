@@ -3,7 +3,7 @@
 namespace Subtask_1
 {
 	internal class Program
-	{
+	{gljgjlgjgjgjgjgj
 		static void Main(string[] args)
 		{
 			string isContinue = "yes";
