@@ -20,13 +20,13 @@ namespace Subtask_1
 				_matrix = new int[_n, _m];
 			}
 			else
-			{
+			{// тут краще генерувати виняток
 				Console.WriteLine("Число стовпцiв i рядкiв має бути позитивним!");
 			}
 		}
 
 		public void FillMatrix()
-		{
+		{// Алгоритмічно не правильно
 			int filler = 1;
 			int counter = 0;
 
@@ -73,7 +73,7 @@ namespace Subtask_1
 		}
 
 		public void PrintMatrix()
-		{
+		{// Метод ToString(), а не Print
 			Console.WriteLine();
 
 			for (int i = 0; i < _n; i++)

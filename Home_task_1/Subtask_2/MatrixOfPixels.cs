@@ -88,13 +88,13 @@ namespace Subtask_2
 					}
 				}
 			}
-
+// Не враховано, що найдовша лінія може бути в кінці стрічки.
 			if (_longestLineElement == -1)
 			{
 				Console.WriteLine("Найдовшої горизонтальної лiнiї в матрицi не знайдено!");
 			}
 			else
-			{
+			{// Результат повинен передаватись як параметри, а не друкуватись!!!!
 				Console.WriteLine($"Найдовша горизонтальна лiнiя в матрицi має колiр " +
 				$"{_longestLineElement}, довжину {_longestLineLength}, \n" +
 				$"iндекси її початку [{_longestLineStartIndexCol},{_longestLineStartIndexRow}] та " +
