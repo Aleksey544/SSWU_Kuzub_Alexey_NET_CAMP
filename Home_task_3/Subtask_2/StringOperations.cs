@@ -3,6 +3,7 @@
 	public class StringOperations
 	{
 		public string Str { get; private set; }
+		// це тільки потреба одного з методів.
 		private string[] _subStrings;
 
 		public StringOperations(string str)
