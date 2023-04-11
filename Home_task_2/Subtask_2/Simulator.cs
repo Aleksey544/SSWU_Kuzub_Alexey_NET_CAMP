@@ -7,6 +7,7 @@ namespace Subtask_2
 	{
 		private Pump _pump;
 		private WaterTower _tower;
+		// тут краще використати список. І створити метод, який може додавати та забирати користувачів.
 		private User[] _users;
 		public int UsersCount { get; private set; }
 
@@ -20,7 +21,7 @@ namespace Subtask_2
 				UsersCount = usersCount;
 
 			_users = new User[UsersCount];
-
+			// Така ініціалізація дуже обмежує.
 			for (int i = 0; i < usersCount; i++)
 			{
 				_users[i] = new User(i, maxTotalUserConsumption);
