@@ -16,7 +16,7 @@
 			Str = str;
 			_subStrings = Str.Split();
 		}
-
+// тут інша логіка методу.
 		public int? IndexOfSecondOccurrence()
 		{
 			int? index;
